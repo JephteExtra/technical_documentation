@@ -9,21 +9,21 @@
   <body>
     <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
       <!--The nav bar. -->
-      <nav id="navbar">
-        <header>JS Documentation</header>
-        <a class="nav-link" href="#introduction">Intoduction</a>
-        <a class="nav-link" href="#what_you_should_alredy_know">What you should already know</a>
-        <a class="nav-link" href="#java_and_javascript">Java and Javascript</a>
-        <a class="nav-link" href="#hello_world">Hello World</a>
-        <a class="nav-link" href="#declaring_variables">Declaring Variables</a>
-      </nav>
-
-      <div id="main-doc">
+      <main class="sides" id="main-doc">
+        <nav class="sides" id="navbar">
+          <header>JS Documentation</header>
+          <a class="nav-link" href="#Introduction">Introduction</a>
+          <a class="nav-link" href="#What_you_should_alredy_know">What you should already know</a>
+          <a class="nav-link" href="#Java_and_Javascript">Java and Javascript</a>
+          <a class="nav-link" href="#Hello_World">Hello World</a>
+          <a class="nav-link" href="#Declaring_Variables">Declaring Variables</a>
+        </nav>        
+        
         <h1>Technical Documentation</h1>
 
         <!-- The following are the five sections within the main section. -->
-        <section class="main-section" id="introduction">
-          <header>Intoduction</header>
+        <section class="main-section" id="Introduction">
+          <header>Introduction</header>
           <p>JavaScript is a cross-platform, object-oriented scripting language. It is a small and lightweight language. Inside a host environment (for example, a web browser), JavaScript can be connected to the objects of its environment to provide programmatic control over them.</p><br>
 
           <p>JavaScript contains a standard library of objects, such as Array, Date, and Math, and a core set of language elements such as operators, control structures, and statements. Core JavaScript can be extended for a variety of purposes by supplementing it with additional objects; for example:</p><br>
@@ -35,7 +35,7 @@
             </ul>
         </section>
 
-        <section class="main-section" id="what_you_should_alredy_know">
+        <section class="main-section" id="What_you_should_alredy_know">
           <header>What you should already know</header>
             <p>This guide assumes you have the following basic background:</p>
             <ul>
@@ -47,7 +47,7 @@
             </ul>
         </section>
 
-        <section class="main-section" id="java_and_javascript">
+        <section class="main-section" id="Java_and_Javascript">
           <header>Java and Javascript</header>
           <p>JavaScript and Java are similar in some ways but fundamentally different in some others. The JavaScript language resembles Java but does not have Java's static typing and strong type checking. JavaScript follows most Java expression syntax, naming conventions and basic control-flow constructs which was the reason why it was renamed from LiveScript to JavaScript.</p><br>
 
@@ -56,7 +56,7 @@
           <p>JavaScript is a very free-form language compared to Java. You do not have to declare all variables, classes, and methods. You do not have to be concerned with whether methods are public, private, or protected, and you do not have to implement interfaces. Variables, parameters, and function return types are not explicitly typed.</p><br>
         </section>
 
-        <section class="main-section" id="hello_world">
+        <section class="main-section" id="Hello_World">
           <header>Hello World</header>
           <p>To get started with writing JavaScript, open the Scratchpad and write your first "Hello world" JavaScript code:</p><br>
 
@@ -66,7 +66,7 @@ greetMe("World");</code><br>
           <p>Select the code in the pad and hit Ctrl+R to watch it unfold in your browser!</p><br>
         </section>
 
-        <section class="main-section" id="declaring_variables">
+        <section class="main-section" id="Declaring_Variables">
           <header>Declaring Variables</header>
             <p>You can declare a variable in three ways:</p><br>
 
@@ -86,7 +86,7 @@ greetMe("World");</code><br>
 
               <code>let y = 13</code><br>
         </section>
-      </div>
+      </main>
     <script  src="js/index.js"></script>
   </body>
 </html>
